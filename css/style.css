@@ -1,0 +1,88 @@
+
+a.nounderline {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.nounderline:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#note {
+    border-radius: 25px;
+}
+
+.game-icon {
+    border-radius: 4%;
+    border: 1px solid #aaa  !important;
+}
+
+#visited-game {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
+.game-cont {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.game-music {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+.game-description {
+    font-family: Georgia, serif !important;
+    font-size: 19px;
+}
+
+.game-description-p{
+    text-indent: 50px;
+}
+
+#description-body{
+    margin-bottom: 6rem;
+    
+}
+
+.jumbotron-game {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    border-radius: .3rem
+}
+
+#main-title{
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; font-size: 275px; font-weight: bold; letter-spacing: -1px; line-height: 1;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+#game-quote{
+    font-size: 12px;
+}
+
+.carousel{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+    border-bottom: 1px solid grey;
+    padding: 0rem;
+    padding-bottom: 10rem;
+  }
